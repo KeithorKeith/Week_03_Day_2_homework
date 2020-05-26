@@ -12,7 +12,7 @@ INSERT INTO people (name) VALUES ('Bart Simpson');
 
 DELETE FROM people WHERE name = 'Eric Cartman';
 
-INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War!!'); 
+INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War!!', '2018', '20:00'); 
 
 SELECT show_time FROM movies WHERE title = 'Iron Man 2';
 
